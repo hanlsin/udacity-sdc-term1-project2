@@ -27,36 +27,20 @@ The goals / steps of this project are the following:
 ## Directories and Files
 This project contains directories and files as below.
 
-    -- example
-    |- row_images[]
-    |- row_movies[]
-    |- find_lane_lines.ipynb
-    |- find_lane_lines.py
+    -- examples[]
+    |- src[]
     |- README.md
-    |- test_raw_images.py
-    |- test_raw_movies.py
+    |- traffic_sign_recognition_classifier.ipynb
     -- writeup.md
 
 * examples
-This is a directory that contains example images showing process.
+This is a directory that contains a test dataset.
 
-* raw_images
-This is a directory that contains images to test.
-
-* raw_movies
-This is a directory that contains movies to test.
-
-* find_lane_lines.ipynb
-This file is a Jupyter Notebook. The content of thie file is test of functions in 'find_lane_lines.py' using images in 'raw_images' and moview in 'raw_movies'.
-
-* find_lane_lines.py
-This file contains the main code for this project.
+* traffic_sign_recognition_classifier.ipynb
+This file is a Jupyter Notebook. The content is process of a traffic sign recognittion using the LeNet architecture.
 
 * README.md
 You are reading this file.
-
-* test_raw_images.py, test_raw_movies.py
-These files are also test codes without Anaconda and Jupyter.
 
 ## Test
 In this project, there is three test files.

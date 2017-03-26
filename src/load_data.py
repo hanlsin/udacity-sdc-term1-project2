@@ -49,9 +49,9 @@ The pickled data is a dictionary with 4 key/value pairs:
     THESE COORDINATES ASSUME THE ORIGINAL IMAGE.
     THE PICKLED DATA CONTAINS RESIZED VERSIONS (32 by 32) OF THESE IMAGES.
 """
-training_file = "./examples/train.p"
-validation_file = "./examples/valid.p"
-testing_file = "./examples/test.p"
+training_file = "../examples/train.p"
+validation_file = "../examples/valid.p"
+testing_file = "../examples/test.p"
 
 with open(training_file, mode='rb') as f:
     train = pickle.load(f)
